@@ -187,7 +187,6 @@ diamond blastp \
 | `extract_trio_ids.py` | Извлечение ID белков из ортогрупп трио и рода Drosophila | `trio_all_shared.tsv`, `trio_restricted.tsv`, `drosophila_genus_restricted.tsv`, ID-файлы, `trio_summary.tsv` |
 | `extract_dmel_sequences.py` | Извлечение последовательностей Dmel по ID из двух выбранных таблиц | Два FASTA-файла и сводка извлечения |
 
-> **Примечание:** отдельный скрипт подготовки набора `proteomes_1isoform` в имеющейся истории работы однозначно не установлен. Поэтому его имя не указывается. `prepare_dmel_diamond.py` также фигурировал как отдельная подготовка Dmel-специфичных запросов; его не следует включать в основной workflow без проверки, что этот дополнительный поиск действительно запускался.
 
 ---
 
